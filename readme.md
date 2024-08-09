@@ -1,7 +1,5 @@
 Hi,
 
-*Note: I'm a new user on the forum, so I'm limited to 1 image for now. I need a lot of images to explain my use case, could any of the admins be so kind to lift that restriction so I can add the images? Pretty please, the only other way is that I would document it in a readme (using the same markdown) in a github repo and link to it from here, but I think that is worse.*
-
 I've been breaking my head over this for hours, and I either don't understand how the mask template works, or there is some kind of bug. I tried with the last 5 versions of OpenCV (4.9.0, 4.8.1, 4.7.0, 4.6.0) but they all have the same behaviour.
 
 Let me first explain what I'm trying to do, which is pretty straightforward: I want to find a template using a mask, using TM_CCORR_NORMED (to get values between 0 and 1), which means that I want to ignore some parts of the template (the transparent pixels).
