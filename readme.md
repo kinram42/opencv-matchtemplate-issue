@@ -8,6 +8,10 @@ This is the 20x20 template (needle):
 
 <img src="readme_images/needle_white.png" width="40" />
 
+If you are viewing this on a white background (which github offers probably), you won't see much, so here's that image screenshotted in paint.net (and zoomed in):
+
+<img src="readme_images/white_needle_in_paint.png" width="100" />
+
 It looks like a window, it has a few white pixels (the borders), and a few transparent pixels.
 
 Trying to find it in a 50x50 image (haystack) and drawing a yellow border around it sometimes works fine.
