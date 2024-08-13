@@ -40,3 +40,4 @@ build/
 # various
 .idea
 output_images
+*.log

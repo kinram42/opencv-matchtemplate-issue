@@ -3,10 +3,14 @@
         <Console name="console" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %p %m%n"/>
         </Console>
+        <File name="file" fileName="test.log" immediateFlush="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %p %m%n"/>
+        </File>
     </Appenders>
     <Loggers>
         <Root level="info">
             <AppenderRef ref="console"/>
+            <AppenderRef ref="file"/>
         </Root>
     </Loggers>
 </Configuration>
